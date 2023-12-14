@@ -1,0 +1,111 @@
+header {
+  font-family: "Raleway", sans-serif;
+  background-color: #eed7c5;
+  padding: 20px;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #eee2df;
+}
+.navigation ul {
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+p {
+  line-height: 1.5;
+}
+h2 {
+  line-height: 1.5;
+  text-align: center;
+}
+.velkommen {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 750px;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+.om-mig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-top: 20px;
+}
+.portfolio-container {
+  background-color: #c89f9c;
+  height: auto;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  width: 256px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+}
+.item-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+#portfolio {
+  width: 100%;
+  max-width: 1500px;
+  text-align: center;
+  background-color: #c89f9c;
+  padding: 20px;
+}
+img {
+  width: 256px;
+  height: auto;
+}
+#om-mig {
+  width: 100%;
+  max-width: 1500px;
+  text-align: center;
+  border: 20px;
+  padding: 50px;
+  width: 750px;
+  margin: 0 auto;
+}
+form {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 2;
+}
+footer {
+  margin: 0px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #b36a5e;
+  color: white;
+  line-height: 2;
+}
