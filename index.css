@@ -109,3 +109,11 @@ footer {
   color: white;
   line-height: 2;
 }
+@media screen and (max-width: 600px) {
+  .velkommen {
+    width: 200px;
+  }
+  #om-mig {
+    width: 200px;
+  }
+}
